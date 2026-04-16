@@ -1,6 +1,7 @@
 from pet import Pet
 
-pet = Pet("cat", 30)
+pet = Pet("fish", 10)
 
-print("Pet name:", pet.name)
-print("Energy level:", pet.energy)
+pet.play_with_pet()
+
+print("Energy level:", pet.energy_level)
